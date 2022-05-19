@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <DashboardRoutes/> should Show correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundImage": "url(https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1687,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1600/fl_lossy,q_auto/v1573446366/191107-leon-rick-morty-tease_nmv5um)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "height": "100vh",
+      "width": "100vp",
+    }
+  }
+>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      Rick and Morty
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          className="nav-item nav-link"
+          href="/location"
+          onClick={[Function]}
+        >
+          Locations
+        </a>
+        <a
+          className="nav-item nav-link"
+          href="/characters"
+          onClick={[Function]}
+        >
+          Characters
+        </a>
+        <a
+          className="nav-item nav-link"
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          Santiago
+        </span>
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+          to="/login"
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "marginTop": "50px",
+        }
+      }
+    >
+      <div
+        className="row rows-cols-1 row-cols-md-3 g-3 animate__animated animate__fadeIn"
+      />
+      <nav
+        style={
+          Object {
+            "marginBottom": "10px",
+            "marginTop": "20px",
+          }
+        }
+      >
+        <ul
+          className="pagination justify-content-center"
+        />
+      </nav>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test in <DashboardRoutes/> should Show correctly Location 1`] = `
+<div
+  style={
+    Object {
+      "backgroundImage": "url(https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1687,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1600/fl_lossy,q_auto/v1573446366/191107-leon-rick-morty-tease_nmv5um)",
+      "backgroundRepeat": "no-repeat",
+      "backgroundSize": "cover",
+      "height": "100vh",
+      "width": "100vp",
+    }
+  }
+>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      Rick and Morty
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-link active"
+          href="/location"
+          onClick={[Function]}
+        >
+          Locations
+        </a>
+        <a
+          className="nav-item nav-link"
+          href="/characters"
+          onClick={[Function]}
+        >
+          Characters
+        </a>
+        <a
+          className="nav-item nav-link"
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          Santiago
+        </span>
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+          to="/login"
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    />
+  </div>
+</div>
+`;

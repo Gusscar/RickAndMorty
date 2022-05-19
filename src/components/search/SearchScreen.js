@@ -13,7 +13,7 @@ export const SearchScreen = () => {
 
   const { list } = useSelector((state) => state.characters);
 
-  const [formValues, handleInputChange, reset] = useForm({
+  const [formValues, handleInputChange] = useForm({
     searchText: q,
   });
 
@@ -46,8 +46,11 @@ export const SearchScreen = () => {
       <h1>Searchs</h1>
       <hr />
 
-      <div className="row">
-        <div className="col-5">
+      <div
+        className="row"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        <div className="col-4">
           <h4>Search Rick And Morty</h4>
           <hr />
 
@@ -62,23 +65,22 @@ export const SearchScreen = () => {
               onChange={handleInputChange}
             />
 
-            <button
-              className="btn btn-outline-primary mt-3 btn-block"
-              type="submit"
-            >
+            <button className="btn btn-primary mt-3 btn-block" type="submit">
               Search...
             </button>
           </form>
         </div>
 
-        <div className="col-7">
+        <div className="col-4">
           <h4>Results</h4>
           <hr />
           {q === "" ? (
             <div className="alert alert-info">Search a Character</div>
           ) : (
             characterFileted?.length === 0 && (
-              <div className="alert alert-danger">There are Results: {q}</div>
+              <div className="alert alert-danger">
+                There are no Results: {q}
+              </div>
             )
           )}
 

@@ -20,7 +20,7 @@ export const DashboardRoutes = () => {
   return (
     <div style={containerStyle}>
       <Navbar />
-      <div className="container">
+      <div style={{ maxWidth: "100%" }}>
         <Routes>
           <Route path="/location" element={<LocationScreen />} />
           <Route path="/characters" element={<MortyScreen />} />

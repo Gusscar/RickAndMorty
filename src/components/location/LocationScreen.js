@@ -12,7 +12,7 @@ export const LocationScreen = () => {
     dispatch(fechtAllLocations(url));
   }, [dispatch]);
   return (
-    <div className="row">
+    <div className="row" style={{ padding: "20px" }}>
       {list?.results?.map((item) => (
         <div key={item.id} className="col animate__animated animate__fadeIn">
           <div

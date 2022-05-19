@@ -26,14 +26,22 @@ export const LoginScreen = () => {
     height: "100vh",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
   };
 
   return (
     <div style={containerStyle}>
-      <h1 style={{ color: "white" }}>Login</h1>
+      <h1 style={{ color: "white" }}>Welcome..!</h1>
       <hr />
 
-      <button className="btn btn-primary" onClick={handleLogin}>
+      <button
+        className="btn btn-primary"
+        style={{ width: "8%" }}
+        onClick={handleLogin}
+      >
         Login
       </button>
     </div>
